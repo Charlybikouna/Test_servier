@@ -7,16 +7,18 @@ Il s'agit d'un pipeline de traitement de données à travers des jobs d'extracti
 ### Prerequis
 
 Ubuntu 18.04
-Python 3.7
-requirement.txt 
 docker
 
 
 ### Installation
 
 ```bash
+
     cd Test_servier
+    sudo su 
+    docker pull python:3.7.1
     docker build -t pipeline:v1 .
+
 ```
 
 ### Exécution 
