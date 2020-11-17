@@ -25,7 +25,7 @@ docker
 ```bash
     docker run -ti -v output:/code/output pipeline:v1
 ```
-Chemin fichier de sortie du pipeline est dans :
+Chemin du dossier contenant le fichier (data.json) de sortie du pipeline est :
 
 /var/lib/docker/volumes/output/_data
 
