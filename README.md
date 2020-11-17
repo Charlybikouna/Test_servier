@@ -16,6 +16,7 @@ docker
 
 ```bash
     cd Test_servier
+    sudo su
     docker build -t pipeline:v1 .
 ```
 
